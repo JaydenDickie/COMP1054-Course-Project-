@@ -89,14 +89,10 @@ body {
 
         /* this fixed an issue on firefox where h2 was hugging the left margin */
         text-align: center; 
-
-
-        
     } 
 }
 
 .greeting-flexbox {
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -110,7 +106,6 @@ body {
     opacity: 0; 
     /* this slowly fades in the greeting / @keyframes at the bottom */
     animation: fadeInGrow 2s ease-in-out forwards;
-
 
     h1 {
         max-width: 90%;
@@ -128,7 +123,6 @@ body {
     }
 
     a {
-       
         padding: 0 .7rem;
         font-weight: 600;
 
@@ -136,7 +130,6 @@ body {
             color: var(--subtext);
             text-decoration: none;
         }  
-
 
         &:visited {
             color: var(--subtext);
@@ -161,8 +154,7 @@ body {
         &:focus {
             font-size: 1.3em;
             text-decoration: none;
-        }
-            
+        }            
     }
 }
 
@@ -211,7 +203,6 @@ body {
         }
 
         a {
-       
             padding: 0 .7rem;
             font-weight: 600;
             text-decoration: none;
@@ -234,7 +225,6 @@ body {
                 color: var(--active);
             }
         }
-
     }
 }
 
@@ -271,7 +261,6 @@ body {
                 max-width: 200px
             }
         }
-    
     }
 }
 
@@ -332,3 +321,4 @@ footer {
 
         
     }
+
