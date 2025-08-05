@@ -1,14 +1,5 @@
 /* variables */
 :root {
-    /* placeholder */
-
-    --dark_white: #f4f4f49a;
-    --light_white: #f8f9fa;
-    --dark_gray: #343a40;
-    --blue: rgb(0, 42, 255);
-    --light_blue: #007bff; 
-    --translucent: #a4a4a400;
-
     --primary: #66b1f3;
     --secondary: #ffffff;
     --backdrop: #ffffff;
@@ -130,7 +121,10 @@ body {
         margin:5rem 0 60%;
         width:70%;
         /* prevents going to wide on wider screen widths */
-        max-width: 800px; 
+        max-width: 800px;
+        /* locally hosted font */ 
+        font-family: "Source Sans 3", sans-serif; 
+        
     }
 
     a {
@@ -212,6 +206,8 @@ body {
         p {
             max-width: 70%;
             margin: 1%; 
+            font-family: "Source Sans 3", sans-serif;
+            font-size: 1.3rem;
         }
 
         a {
@@ -219,6 +215,8 @@ body {
             padding: 0 .7rem;
             font-weight: 600;
             text-decoration: none;
+            font-family: "Source Sans 3", sans-serif;
+            font-size: 1.5rem;
             
 
             &:visited {
@@ -228,9 +226,8 @@ body {
             &:hover,
             &:focus {
                 transition-duration: 0.3s;
-                font-size: 1.1em;
+                font-size: 1.3em;
                 text-decoration: underline;
-                color: var(--hover);
             }
 
             &:active {
@@ -240,7 +237,6 @@ body {
 
     }
 }
-
 
 .aboutArea-gridbox {
     display: grid; 
@@ -252,8 +248,8 @@ body {
     p {
         font-size: 2rem;
         margin: 0 0 0 6vw;
-        color: var(--subtext)
-        
+        color: var(--subtext);
+        font-family: "Source Sans 3", sans-serif;   
     }
     .PersonalPhoto {
         
@@ -285,12 +281,11 @@ body {
     align-items: center; 
 
     p{
+        font-family: "Source Sans 3", sans-serif;
         max-width: 80%;
         font-size: 2rem;
         font-weight: 550;
-        
-        color: var(--subtext)
-        
+        color: var(--subtext);
     }
     .socialIcons {
         grid-column:1/3;
